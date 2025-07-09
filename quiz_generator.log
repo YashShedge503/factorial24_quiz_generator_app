@@ -1,0 +1,208 @@
+2025-07-09 23:05:09,293 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:05:09,310 [ERROR] JSON decoding error: Expecting value: line 1 column 1 (char 0)
+2025-07-09 23:20:34,782 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:20:34,787 [INFO] Raw response: [
+  {
+    "question": "What is the primary goal of feature scaling in machine learning?",
+    "options": {
+      "A": "To decrease the dimensionality of the feature space",
+      "B": "To increase the interpretability of the model",
+      "C": "To prevent features with large ranges from dominating the model",
+      "D": "To improve the computational efficiency of the model"
+    },
+    "answer": "C",
+    "explanation": "Feature scaling is used to prevent features with large ranges from dominating the model."
+  },
+  {
+    "question": "Which of the following is a type of supervised learning?",
+    "options": {
+      "A": "Clustering",
+      "B": "Regression",
+      "C": "Decision Trees",
+      "D": "Principal Component Analysis"
+    },
+    "answer": "B",
+    "explanation": "Regression is a type of supervised learning where the target variable is continuous."
+  },
+  {
+    "question": "What is the purpose of the activation function in a neural network?",
+    "options": {
+      "A": "To compute the output of the model",
+      "B": "To introduce non-linearity into the model",
+      "C": "To optimize the model's performance",
+      "D": "To regularize the model's weights"
+    },
+    "answer": "B",
+    "explanation": "The activation function introduces non-linearity into the model, allowing it to learn more complex relationships."
+  },
+  {
+    "question": "What is the term for the process of selecting the best hyperparameters for a model?",
+    "options": {
+      "A": "Model selection",
+      "B": "Hyperparameter tuning",
+      "C": "Feature engineering",
+      "D": "Cross-validation"
+    },
+    "answer": "B",
+    "explanation": "Hyperparameter tuning is the process of selecting the best hyperparameters for a model."
+  },
+  {
+    "question": "What is the term for the technique of training a model on multiple datasets?",
+    "options": {
+      "A": "Transfer learning",
+      "B": "Ensemble learning",
+      "C": "Multi-task learning",
+      "D": "Domain adaptation"
+    },
+    "answer": "C",
+    "explanation": "Multi-task learning is the technique of training a model on multiple datasets."
+  },
+  {
+    "question": "What is the purpose of the test set in machine learning?",
+    "options": {
+      "A": "To train the model",
+      "B": "To tune the hyperparameters",
+      "C": "To evaluate the model's performance",
+      "D": "To feature engineer the data"
+    },
+    "answer": "C",
+    "explanation": "The test set is used to evaluate the model's performance on unseen data."
+  },
+  {
+    "question": "What is the term for the difference between the model's performance on the training set and the test set?",
+    "options": {
+      "A": "Overfitting",
+      "B": "Underfitting",
+      "C": "Bias-variance tradeoff",
+      "D": "Generalization error"
+    },
+    "answer": "D",
+    "explanation": "The generalization error is the difference between the model's performance on the training set and the test set."
+  },
+  {
+    "question": "What is the purpose of the dropout technique in neural networks?",
+    "options": {
+      "A": "To increase the model's capacity",
+      "B": "To reduce overfitting",
+      "C": "To speed up training",
+      "D": "To improve model interpretability"
+    },
+    "answer": "B",
+    "explanation": "Dropout is used to reduce overfitting by randomly dropping out neurons during training."
+  },
+  {
+    "question": "What is the term for the process of combining the predictions of multiple models?",
+    "options": {
+      "A": "Ensemble learning",
+      "B": "Boosting",
+      "C": "Stacking",
+      "D": "Bagging"
+    },
+    "answer": "A",
+    "explanation": "Ensemble learning is the process of combining the predictions of multiple models."
+  }
+]
+2025-07-09 23:20:34,789 [INFO] Generated 9 questions.
+2025-07-09 23:20:35,642 [INFO] HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-09 23:20:35,643 [INFO] Raw response: [
+  {
+    "question": "What is the primary goal of feature scaling in machine learning?",
+    "options": {
+      "A": "To reduce the dimensionality of the dataset",
+      "B": "To improve the interpretability of the model",
+      "C": "To prevent features with large ranges from dominating the model",
+      "D": "To handle missing values in the dataset"
+    },
+    "answer": "C",
+    "explanation": "Feature scaling is used to prevent features with large ranges from dominating the model."
+  },
+  {
+    "question": "Which of the following machine learning algorithms is suitable for handling imbalanced datasets?",
+    "options": {
+      "A": "Logistic Regression",
+      "B": "Decision Trees",
+      "C": "Random Forest",
+      "D": "SMOTE"
+    },
+    "answer": "D",
+    "explanation": "SMOTE (Synthetic Minority Over-sampling Technique) is an algorithm used to handle imbalanced datasets."
+  },
+  {
+    "question": "What is the purpose of the activation function in a neural network?",
+    "options": {
+      "A": "To normalize the input data",
+      "B": "To compute the output of the neuron",
+      "C": "To reduce the dimensionality of the input data",
+      "D": "To introduce non-linearity into the model"
+    },
+    "answer": "D",
+    "explanation": "The activation function introduces non-linearity into the model, allowing it to learn complex relationships."
+  },
+  {
+    "question": "Which of the following is a type of unsupervised machine learning?",
+    "options": {
+      "A": "Regression",
+      "B": "Classification",
+      "C": "Clustering",
+      "D": " Reinforcement Learning"
+    },
+    "answer": "C",
+    "explanation": "Clustering is a type of unsupervised machine learning where the model groups similar data points into clusters."
+  },
+  {
+    "question": "What is overfitting in machine learning?",
+    "options": {
+      "A": "When the model is too simple and cannot capture the underlying patterns",
+      "B": "When the model is too complex and performs well on the training data but poorly on new data",
+      "C": "When the model is biased towards a specific class",
+      "D": "When the model is too slow to train"
+    },
+    "answer": "B",
+    "explanation": "Overfitting occurs when the model is too complex and performs well on the training data but poorly on new data."
+  },
+  {
+    "question": "What is the primary goal of hyperparameter tuning in machine learning?",
+    "options": {
+      "A": "To improve the model's performance on the training data",
+      "B": "To reduce the model's complexity",
+      "C": "To improve the model's performance on unseen data",
+      "D": "To handle missing values in the dataset"
+    },
+    "answer": "C",
+    "explanation": "The primary goal of hyperparameter tuning is to improve the model's performance on unseen data."
+  },
+  {
+    "question": "Which of the following is a evaluation metric used for classification problems?",
+    "options": {
+      "A": "Mean Squared Error",
+      "B": "R-Squared",
+      "C": "Accuracy",
+      "D": "Coefficient of Determination"
+    },
+    "answer": "C",
+    "explanation": "Accuracy is a common evaluation metric used for classification problems."
+  },
+  {
+    "question": "What is the purpose of the bias term in a neural network?",
+    "options": {
+      "A": "To shift the activation function to the left",
+      "B": "To shift the activation function to the right",
+      "C": "To increase the learning rate",
+      "D": "To shift the activation function up or down"
+    },
+    "answer": "D",
+    "explanation": "The bias term shifts the activation function up or down, allowing the model to learn more complex relationships."
+  },
+  {
+    "question": "Which of the following machine learning algorithms is suitable for handling high-dimensional data?",
+    "options": {
+      "A": "Decision Trees",
+      "B": "Random Forest",
+      "C": "Principal Component Analysis (PCA)",
+      "D": "Support Vector Machines (SVM)"
+    },
+    "answer": "C",
+    "explanation": "Principal Component Analysis (PCA) is a dimensionality reduction technique used to handle high-dimensional data."
+  }
+]
+2025-07-09 23:20:35,645 [INFO] Generated 9 questions.
